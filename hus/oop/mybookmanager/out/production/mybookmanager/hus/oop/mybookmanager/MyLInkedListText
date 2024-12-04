@@ -1,0 +1,129 @@
+package hus.oop.mybookmanager;
+
+import java.util.NoSuchElementException;
+
+public class MyLinkedList implements MyList {
+    private Node head;
+    private int size;
+
+    /**
+     * Constructor initializes an empty linked list.
+     */
+    public MyLinkedList() {
+        this.head = null;
+        this.size = 0;
+    }
+
+    @Override
+    public int size() {
+        return size;
+    }
+
+    @Override
+    public void set(Object data, int index) {
+        checkBoundaries(index, size - 1); // Ensure index is valid
+        Node targetNode = getNodeByIndex(index);
+        targetNode.data = data;
+    }
+
+    @Override
+    public void insertAtStart(Object data) {
+        Node newNode = new Node(data);
+        newNode.next = head; // Point new node to the current head
+        head = newNode; // Update head
+        size++;
+    }
+
+    @Override
+    public void insertAtEnd(Object data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+        } else {
+            Node tail = getNodeByIndex(size - 1); // Get the last node
+            tail.next = newNode;
+        }
+        size++;
+    }
+
+    @Override
+    public void insertAtPosition(Object data, int index) {
+        checkBoundaries(index, size); // Index can be size (insert at end)
+        if (index == 0) {
+            insertAtStart(data);
+        } else {
+            Node previousNode = getNodeByIndex(index - 1);
+            Node newNode = new Node(data);
+            newNode.next = previousNode.next; // Link new node to the next node
+            previousNode.next = newNode; // Link previous node to the new node
+            size++;
+        }
+    }
+
+    @Override
+    public void remove(int index) {
+        checkBoundaries(index, size - 1); // Ensure index is valid
+        if (index == 0) {
+            head = head.next; // Update head to the next node
+        } else {
+            Node previousNode = getNodeByIndex(index - 1);
+            previousNode.next = previousNode.next.next; // Skip the target node
+        }
+        size--;
+    }
+
+    /**
+     * Get the Node at a specific index.
+     * @param index the index of the node
+     * @return the node at the specified index
+     */
+    private Node getNodeByIndex(int index) {
+        checkBoundaries(index, size - 1); // Ensure index is valid
+        Node currentNode = head;
+        for (int i = 0; i < index; i++) {
+            currentNode = currentNode.next;
+        }
+        return currentNode;
+    }
+
+    /**
+     * Check if the index is within valid boundaries.
+     * @param index the index to check
+     * @param upperBound the maximum allowed index
+     */
+    private void checkBoundaries(int index, int upperBound) {
+        if (index < 0 || index > upperBound) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        }
+    }
+
+    @Override
+    public MyIterator iterator(int start) {
+        checkBoundaries(start, size); // Ensure starting index is valid
+        return new MyLinkedListIterator(start);
+    }
+
+    // Inner class implementing MyIterator
+    private class MyLinkedListIterator implements MyIterator {
+        private Node currentNode;
+
+        public MyLinkedListIterator(int start) {
+            currentNode = (start < size) ? getNodeByIndex(start) : null;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return currentNode != null;
+        }
+
+        @Override
+        public Object next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            Object data = currentNode.data;
+            currentNode = currentNode.next;
+            return data;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+0
+[
+[
+Test MyListVector0: 
+0
+[
+Sum of 2 vectors:[
+0.0
+[
+[]
+0.0
+[1.0 ]
