@@ -35,8 +35,7 @@ public class OctalConverter extends AbstractNumberSystemConverter {
     @Override
     public void update(ANumber number) {
         /* TODO */
-        decimalTo(number.getNumberPresentation());
-        // hàm này có thể đang code sai
+        this.convertedNumber = decimalTo(number.getNumberPresentation());
     }
 
     /**

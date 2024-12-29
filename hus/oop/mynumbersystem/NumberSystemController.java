@@ -36,22 +36,31 @@ public class NumberSystemController {
      */
     public void notifyConverters() {
         /* TODO */
+        for (int i = 0; i < converters.size(); i++) {
+            converters.get(i).update(originalNumber);
+        }
     }
 
     public String getNumberPresentation() {
         /* TODO */
+        return originalNumber.getNumberPresentation();
     }
 
     public void setNumberPresentation(String numberPresentation) {
         /* TODO */
+        originalNumber.setNumberPresentation(numberPresentation);
+        onStateChanged();
     }
 
     public int getRadix() {
         /* TODO */
+        return originalNumber.getRadix();
     }
 
     public void setRadix(int radix) {
         /* TODO */
+         originalNumber.setRadix(radix);
+         onStateChanged();
     }
 
     /**
@@ -61,5 +70,6 @@ public class NumberSystemController {
      */
     private void onStateChanged() {
         /* TODO */
+        notifyConverters();
     }
 }

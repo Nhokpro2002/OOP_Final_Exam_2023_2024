@@ -1,7 +1,13 @@
 package hus.oop.mynumbersystem;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.math.BigInteger;
+import java.util.Random;
+
 public class NumberSystemTestDrive {
     public static void main(String[] args) {
+
         /* Yêu cầu:
 
         - Sinh ngẫu nhiên 3 số bằng cách:
@@ -33,5 +39,46 @@ public class NumberSystemTestDrive {
           <TenSinhVien_MaSinhVien_NumberSystemConverter>.zip (Ví dụ, NguyenVanA_123456_NumberSystemConverter.zip),
           nộp lên classroom.
          */
+        Random rd = new Random();
+        String STRING = "0123456789ABCDEF";
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < 3; i++) {
+            StringBuilder numberStringRepresent = new StringBuilder();
+            int radix;
+
+            do {
+                radix = rd.nextInt(15) + 2; // [2, 16]
+            } while (radix == 10);
+
+            int stringLength = rd.nextInt(21) + 10; // [10, 30]
+
+            // Generate a random number string in the specified radix
+            for (int j = 0; j < stringLength; j++) {
+                int stringIndexJ = rd.nextInt(radix);
+                numberStringRepresent.append(STRING.charAt(stringIndexJ));
+            }
+
+            String originalNumber = numberStringRepresent.toString();
+            result.append("Original number: ").append(originalNumber).append("\n");
+            result.append("Radix: ").append(radix).append("\n");
+
+            // Convert the number to binary, octal, and hexadecimal
+            BigInteger number = new BigInteger(originalNumber, radix);
+
+            result.append("Binary: ").append(number.toString(2)).append("\n");
+            result.append("Octal: ").append(number.toString(8)).append("\n");
+            result.append("Hexadecimal: ").append(number.toString(16).toUpperCase()).append("\n\n");
+        }
+
+        // Print results to terminal
+        System.out.println(result);
+
+        // Write results to a file
+        try (FileWriter writer = new FileWriter("NguyenVanA_123456_NumberSystemConverter.txt")) {
+            writer.write(result.toString());
+        } catch (IOException e) {
+            System.err.println("Error writing to file: " + e.getMessage());
+        }
     }
 }

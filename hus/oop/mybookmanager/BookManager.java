@@ -88,7 +88,6 @@ public class BookManager {
         return bookAt(0);
     }
 
-
     /**
      * Lấy ra sách có giá thấp nhất.
      * @return

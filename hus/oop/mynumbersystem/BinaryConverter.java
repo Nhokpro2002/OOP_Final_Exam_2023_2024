@@ -2,8 +2,8 @@ package hus.oop.mynumbersystem;
 
 public class BinaryConverter extends AbstractNumberSystemConverter {
     public BinaryConverter(ANumber aNumber) {
-        /* TODO */
         super(aNumber);
+        this.convertedNumber = decimalTo(aNumber.getNumberPresentation());
     }
 
     /**
@@ -17,15 +17,17 @@ public class BinaryConverter extends AbstractNumberSystemConverter {
      */
     @Override
     public String decimalTo(String decimal) {
-        /* TODO */
-        StringBuilder str = new StringBuilder();
+        StringBuilder binary = new StringBuilder();
         int intNumber = Integer.parseInt(decimal);
+
+        // Euclid's algorithm for base conversion
         while (intNumber != 0) {
-            int remainder = intNumber / 2;
-            str.append(remainder);
-            intNumber /= 2;
+            int remainder = intNumber % 2; // Calculate remainder
+            binary.append(remainder);
+            intNumber /= 2; // Update quotient
         }
-        return str.reverse().toString();
+
+        return binary.reverse().toString(); // Reverse to get correct binary order
     }
 
     /**
@@ -34,9 +36,7 @@ public class BinaryConverter extends AbstractNumberSystemConverter {
      */
     @Override
     public void update(ANumber number) {
-        /* TODO */
-        decimalTo(number.getNumberPresentation());
-        // Hàm này có thể đang code sai
+        this.convertedNumber = decimalTo(number.getNumberPresentation());
     }
 
     /**
@@ -44,8 +44,6 @@ public class BinaryConverter extends AbstractNumberSystemConverter {
      */
     @Override
     public void display() {
-       String bin = this.decimalTo(this.convertedNumber);
-        System.out.println(bin + "(2)");
+        System.out.println(this.convertedNumber + "(2)");
     }
-
 }

@@ -1,0 +1,176 @@
+Test data init
+Book{author='Goswami Jaideva', title='Fundamentals of Wavelets', genre='signal_processing', pages=228, price=20.5, publisher='Wiley'}
+Book{author='Foreman John', title='Data Smart', genre='data_science', pages=235, price=80.0, publisher='Wiley'}
+Book{author='Hawking Stephen', title='God Created the Integers', genre='mathematics', pages=197, price=97.5, publisher='Penguin'}
+Book{author='Dubner Stephen', title='Superfreakonomics', genre='economics', pages=179, price=45.6, publisher='HarperCollins'}
+Book{author='Said Edward', title='Orientalism', genre='history', pages=197, price=37.9, publisher='Penguin'}
+Book{author='Vapnik Vladimir', title='Nature of Statistical Learning Theory', genre='data_science', pages=230, price=80.3, publisher='Springer'}
+Book{author='Mlodinow Leonard', title='Drunkards Walk', genre='science', pages=197, price=34.7, publisher='Penguin'}
+Book{author='Shih Frank', title='Image Processing and Mathematical Morphology', genre='signal_processing', pages=241, price=34.4, publisher='CRC'}
+Book{author='Konnikova Maria', title='How to Think Like Sherlock Holmes', genre='psychology', pages=240, price=48.4, publisher='Penguin'}
+Book{author='Sebastian Gutierrez', title='Data Scientists at Work', genre='data_science', pages=230, price=29.4, publisher='Apress'}
+Book{author='Vonnegut Kurt', title='Slaughterhouse Five', genre='fiction', pages=198, price=94.6, publisher='Random House'}
+Book{author='Villani Cedric', title='Birth of a Theorem', genre='mathematics', pages=234, price=58.4, publisher='Bodley Head'}
+Book{author='Sussman Gerald', title='Structure and Interpretation of Computer Programs', genre='computer_science', pages=240, price=43.5, publisher='MIT Press'}
+Book{author='Eraly Abraham', title='Age of Wrath', genre='history', pages=238, price=32.6, publisher='Penguin'}
+Book{author='Kafka Frank', title='Trial', genre='fiction', pages=198, price=94.3, publisher='Random House'}
+Book{author='Pratt John', title='Statistical Decision Theory', genre='data_science', pages=236, price=29.3, publisher='MIT Press'}
+Book{author='Nisbet Robert', title='Data Mining Handbook', genre='data_science', pages=242, price=12.4, publisher='Apress'}
+Book{author='Wells HG', title='New Machiavelli', genre='fiction', pages=180, price=84.4, publisher='Penguin'}
+Book{author='Heisenberg Werner', title='Physics and Philosophy', genre='science', pages=197, price=93.5, publisher='Penguin'}
+Book{author='Oram Andy', title='Making Software', genre='computer_science', pages=232, price=32.5, publisher='OReilly'}
+Book{author='Tao Terence', title='Analysis Vol I', genre='mathematics', pages=248, price=43.5, publisher='HBA'}
+Book{author='Conway Drew', title='Machine Learning for Hackers', genre='data_science', pages=233, price=4.5, publisher='OReilly'}
+Book{author='Silver Nate', title='Signal and the Noise', genre='data_science', pages=233, price=54.9, publisher='Penguin'}
+Book{author='McKinney Wes', title='Python for Data Analysis', genre='data_science', pages=233, price=49.5, publisher='OReilly'}
+Book{author='Cormen Thomas', title='Introduction to Algorithms', genre='computer_science', pages=234, price=32.6, publisher='MIT Press'}
+Book{author='Deb Siddhartha', title='Beautiful and the Damned', genre='nonfiction', pages=198, price=90.4, publisher='Penguin'}
+Book{author='Camus Albert', title='Outsider', genre='fiction', pages=198, price=64.4, publisher='Penguin'}
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol I', genre='fiction', pages=176, price=83.5, publisher='Random House'}
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol II', genre='fiction', pages=176, price=92.4, publisher='Random House'}
+Book{author='Smith Adam', title='Wealth of Nations', genre='economics', pages=175, price=98.3, publisher='Random House'}
+Book{author='Follett Ken', title='Pillars of the Earth', genre='fiction', pages=176, price=93.4, publisher='Random House'}
+Book{author='Hitler Adolf', title='Mein Kampf', genre='nonfiction', pages=212, price=45.8, publisher='Rupa'}
+Book{author='Capra Fritjof', title='Tao of Physics', genre='science', pages=179, price=79.4, publisher='Penguin'}
+Book{author='Feynman Richard', title='Surely You are Joking Mr Feynman', genre='science', pages=198, price=32.5, publisher='Random House'}
+Book{author='Hemingway Ernest', title='Farewell to Arms', genre='fiction', pages=179, price=30.3, publisher='Rupa'}
+Book{author='Forsyth Frederick', title='Veteran', genre='fiction', pages=177, price=72.3, publisher='Transworld'}
+Book{author='Archer Jeffery', title='False Impressions', genre='fiction', pages=177, price=2.3, publisher='Pan'}
+Book{author='Pausch Randy', title='Last Lecture', genre='nonfiction', pages=197, price=3.5, publisher='Hyperion'}
+Book{author='Rand Ayn', title='Return of the Primitive', genre='philosophy', pages=202, price=1.6, publisher='Penguin'}
+Book{author='Crichton Michael', title='Jurassic Park', genre='fiction', pages=174, price=34.6, publisher='Random House'}
+Book{author='Steinbeck John', title='Russian Journal', genre='nonfiction', pages=196, price=32.9, publisher='Penguin'}
+Book{author='Poe Edgar Allen', title='Tales of Mystery and Imagination', genre='fiction', pages=172, price=32.6, publisher='HarperCollins'}
+Book{author='Dubner Stephen', title='Freakonomics', genre='economics', pages=197, price=93.5, publisher='Penguin'}
+Book{author='Capra Fritjof', title='Hidden Connections', genre='science', pages=197, price=32.5, publisher='HarperCollins'}
+Book{author='Durant Will', title='Story of Philosophy', genre='philosophy', pages=170, price=43.9, publisher='Pocket'}
+Book{author='Deshpande PL', title='Asami Asami', genre='fiction', pages=205, price=49.4, publisher='Mauj'}
+Book{author='Steinbeck John', title='Journal of a Novel', genre='fiction', pages=196, price=32.5, publisher='Penguin'}
+Book{author='Steinbeck John', title='Once There Was a War', genre='nonfiction', pages=196, price=74.5, publisher='Penguin'}
+Book{author='Steinbeck John', title='Moon is Down', genre='fiction', pages=196, price=15.9, publisher='Penguin'}
+Book{author='Grisham John', title='Brethren', genre='fiction', pages=174, price=93.6, publisher='Random House'}
+Book{author='Naipaul VS', title='In a Free State', genre='fiction', pages=196, price=32.5, publisher='Rupa'}
+Book{author='Heller Joseph', title='Catch 22', genre='fiction', pages=178, price=58.9, publisher='Random House'}
+Book{author='BBC', title='Complete Mastermind', genre='nonfiction', pages=178, price=53.9, publisher='BBC'}
+Book{author='Dylan Bob', title='Dylan on Dylan', genre='nonfiction', pages=197, price=32.0, publisher='Random House'}
+Book{author='Gupta Madan', title='Soft Computing and Intelligent Systems', genre='data_science', pages=242, price=32.4, publisher='Elsevier'}
+Book{author='Stonier Alfred', title='Textbook of Economic Theory', genre='economics', pages=242, price=78.4, publisher='Pearson'}
+Book{author='Greene WH', title='Econometric Analysis', genre='economics', pages=242, price=74.9, publisher='Pearson'}
+Book{author='Bradsky Gary', title='Learning OpenCV', genre='data_science', pages=232, price=43.5, publisher='OReilly'}
+Book{author='Tanenbaum Andrew', title='Data Structures Using C', genre='computer_science', pages=235, price=93.4, publisher='Prentice Hall'}
+Book{author='Forsyth David', title='Computer Vision A Modern Approach', genre='data_science', pages=255, price=38.3, publisher='Pearson'}
+Book{author='Taub Schilling', title='Principles of Communication Systems', genre='computer_science', pages=240, price=32.9, publisher='TMH'}
+Book{author='Kanetkar Yashwant', title='Let Us C', genre='computer_science', pages=213, price=32.4, publisher='Prentice Hall'}
+Book{author='Stroud Jonathan', title='Amulet of Samarkand', genre='fiction', pages=179, price=84.6, publisher='Random House'}
+Book{author='Dostoevsky Fyodor', title='Crime and Punishment', genre='fiction', pages=180, price=41.9, publisher='Penguin'}
+Book{author='Brown Dan', title='Angels and Demons', genre='fiction', pages=178, price=43.5, publisher='Random House'}
+Book{author='Sen Amartya', title='Argumentative Indian', genre='nonfiction', pages=209, price=84.9, publisher='Picador'}
+Book{author='Ghosh Amitav', title='Sea of Poppies', genre='fiction', pages=197, price=43.5, publisher='Penguin'}
+Book{author='Sen Amartya', title='Idea of Justice', genre='nonfiction', pages=212, price=32.9, publisher='Penguin'}
+Book{author='Hansberry Lorraine', title='Raisin in the Sun', genre='fiction', pages=175, price=14.6, publisher='Penguin'}
+Book{author='Woodward Bob', title='All the Presidents Men', genre='history', pages=177, price=32.3, publisher='Random House'}
+Book{author='Archer Jeffery', title='Prisoner of Birth', genre='fiction', pages=176, price=18.4, publisher='Pan'}
+Book{author='Nayar Kuldip', title='Scoop', genre='history', pages=216, price=43.3, publisher='HarperCollins'}
+Book{author='Deshpande Sunita', title='Ahe Manohar Tari', genre='nonfiction', pages=213, price=43.9, publisher='Mauj'}
+Book{author='Dalrymple William', title='Last Mughal', genre='history', pages=199, price=32.9, publisher='Penguin'}
+Book{author='Various', title='Social Choice and Welfare Vol 39 No1', genre='economics', pages=235, price=4.9, publisher='Springer'}
+Book{author='Deshpande PL', title='Radiowaril Bhashane and Shrutika', genre='nonfiction', pages=213, price=4.3, publisher='Mauj'}
+Book{author='Deshpande PL', title='Gun Gayin Awadi', genre='nonfiction', pages=212, price=32.9, publisher='Mauj'}
+Book{author='Deshpande PL', title='Aghal Paghal', genre='nonfiction', pages=212, price=93.3, publisher='Mauj'}
+Book{author='Garg Sanjay', title='Maqta-e-Ghalib', genre='fiction', pages=221, price=78.4, publisher='Mauj'}
+Book{author='Kale VP', title='Manasa', genre='nonfiction', pages=213, price=93.5, publisher='Mauj'}
+Book{author='Tharoor Shashi', title='India from Midnight to Milennium', genre='history', pages=198, price=32.8, publisher='Penguin'}
+Book{author='Tharoor Shashi', title='Great Indian Novel', genre='fiction', pages=198, price=43.3, publisher='Penguin'}
+Book{author='Lapierre Dominique', title='O Jerusalem', genre='history', pages=217, price=83.4, publisher='vikas'}
+Book{author='Lapierre Dominique', title='City of Joy', genre='fiction', pages=177, price=62.4, publisher='vikas'}
+Book{author='Lapierre Dominique', title='Freedom at Midnight', genre='history', pages=167, price=95.4, publisher='vikas'}
+Book{author='Steinbeck John', title='Winter of Our Discontent', genre='fiction', pages=196, price=83.4, publisher='Penguin'}
+Book{author='Russell Bertrand', title='On Education', genre='philosophy', pages=203, price=95.3, publisher='Routledge'}
+Book{author='Harris Sam', title='Free Will', genre='philosophy', pages=203, price=82.4, publisher='FreePress'}
+Book{author='Tharoor Shashi', title='Bookless in Baghdad', genre='nonfiction', pages=206, price=34.8, publisher='Penguin'}
+Book{author='Hawking Stephen', title='Theory of Everything', genre='science', pages=217, price=5.3, publisher='Jaico'}
+Book{author='Drucker Peter', title='New Markets and Other Essays', genre='economics', pages=176, price=34.5, publisher='Penguin'}
+Book{author='Bodanis David', title='Electric Universe', genre='science', pages=201, price=82.3, publisher='Penguin'}
+Book{author='Hugo Victor', title='Hunchback of Notre Dame', genre='fiction', pages=175, price=34.8, publisher='Random House'}
+Book{author='Steinbeck John', title='Burning Bright', genre='fiction', pages=175, price=92.4, publisher='Penguin'}
+Book{author='Drucker Peter', title='Age of Discontuinity', genre='economics', pages=178, price=73.4, publisher='Random House'}
+Book{author='Gordon Richard', title='Doctor in the Nude', genre='fiction', pages=179, price=32.4, publisher='Penguin'}
+Book{author='Orwell George', title='Down and Out in Paris and London', genre='nonfiction', pages=179, price=32.4, publisher='Penguin'}
+Book{author='Sen Amartya', title='Identity and Violence', genre='philosophy', pages=219, price=45.5, publisher='Penguin'}
+Book{author='Dalrymple William', title='Beyond the Three Seas', genre='history', pages=197, price=54.9, publisher='Random House'}
+Book{author='Maugham William S', title='Maughams Collected Short Stories Vol 3', genre='fiction', pages=171, price=83.4, publisher='Vintage'}
+Book{author='Maugham William S', title='Ashenden of The British Agent', genre='fiction', pages=160, price=34.6, publisher='Vintage'}
+Book{author='Pirsig Robert', title='Zen and The Art of Motorcycle Maintenance', genre='philosophy', pages=172, price=32.5, publisher='Vintage'}
+Book{author='Fisk Robert', title='Great War for Civilization', genre='history', pages=197, price=13.5, publisher='HarperCollins'}
+Book{author='Rand Ayn', title='We the Living', genre='fiction', pages=178, price=84.4, publisher='Penguin'}
+Book{author='Aczel Amir', title='Artist and the Mathematician', genre='science', pages=186, price=83.4, publisher='HighStakes'}
+Book{author='Russell Bertrand', title='History of Western Philosophy', genre='philosophy', pages=213, price=32.5, publisher='Routledge'}
+Book{author='Sen Amartya', title='Rationality and Freedom', genre='economics', pages=213, price=83.4, publisher='Springer'}
+Book{author='Huntington Samuel', title='Clash of Civilizations and Remaking of the World Order', genre='history', pages=228, price=32.4, publisher='SimonAndSchuster'}
+Book{author='Bach Richard', title='One', genre='nonfiction', pages=172, price=54.8, publisher='Dell'}
+Book{author='Braithwaite', title='To Sir With Love', genre='fiction', pages=197, price=32.9, publisher='Penguin'}
+test FilterBooksOfAuthor:
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol I', genre='fiction', pages=176, price=83.5, publisher='Random House'}
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol II', genre='fiction', pages=176, price=92.4, publisher='Random House'}
+test FilterBooksOfPublisher:
+Book{author='Vonnegut Kurt', title='Slaughterhouse Five', genre='fiction', pages=198, price=94.6, publisher='Random House'}
+Book{author='Kafka Frank', title='Trial', genre='fiction', pages=198, price=94.3, publisher='Random House'}
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol I', genre='fiction', pages=176, price=83.5, publisher='Random House'}
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol II', genre='fiction', pages=176, price=92.4, publisher='Random House'}
+Book{author='Smith Adam', title='Wealth of Nations', genre='economics', pages=175, price=98.3, publisher='Random House'}
+Book{author='Follett Ken', title='Pillars of the Earth', genre='fiction', pages=176, price=93.4, publisher='Random House'}
+Book{author='Feynman Richard', title='Surely You are Joking Mr Feynman', genre='science', pages=198, price=32.5, publisher='Random House'}
+Book{author='Crichton Michael', title='Jurassic Park', genre='fiction', pages=174, price=34.6, publisher='Random House'}
+Book{author='Grisham John', title='Brethren', genre='fiction', pages=174, price=93.6, publisher='Random House'}
+Book{author='Heller Joseph', title='Catch 22', genre='fiction', pages=178, price=58.9, publisher='Random House'}
+Book{author='Dylan Bob', title='Dylan on Dylan', genre='nonfiction', pages=197, price=32.0, publisher='Random House'}
+Book{author='Stroud Jonathan', title='Amulet of Samarkand', genre='fiction', pages=179, price=84.6, publisher='Random House'}
+Book{author='Brown Dan', title='Angels and Demons', genre='fiction', pages=178, price=43.5, publisher='Random House'}
+Book{author='Woodward Bob', title='All the Presidents Men', genre='history', pages=177, price=32.3, publisher='Random House'}
+Book{author='Hugo Victor', title='Hunchback of Notre Dame', genre='fiction', pages=175, price=34.8, publisher='Random House'}
+Book{author='Drucker Peter', title='Age of Discontuinity', genre='economics', pages=178, price=73.4, publisher='Random House'}
+Book{author='Dalrymple William', title='Beyond the Three Seas', genre='history', pages=197, price=54.9, publisher='Random House'}
+test FilterBooksOfGenre:
+Book{author='Vonnegut Kurt', title='Slaughterhouse Five', genre='fiction', pages=198, price=94.6, publisher='Random House'}
+Book{author='Kafka Frank', title='Trial', genre='fiction', pages=198, price=94.3, publisher='Random House'}
+Book{author='Wells HG', title='New Machiavelli', genre='fiction', pages=180, price=84.4, publisher='Penguin'}
+Book{author='Camus Albert', title='Outsider', genre='fiction', pages=198, price=64.4, publisher='Penguin'}
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol I', genre='fiction', pages=176, price=83.5, publisher='Random House'}
+Book{author='Doyle Arthur Conan', title='Complete Sherlock Holmes Vol II', genre='fiction', pages=176, price=92.4, publisher='Random House'}
+Book{author='Follett Ken', title='Pillars of the Earth', genre='fiction', pages=176, price=93.4, publisher='Random House'}
+Book{author='Hemingway Ernest', title='Farewell to Arms', genre='fiction', pages=179, price=30.3, publisher='Rupa'}
+Book{author='Forsyth Frederick', title='Veteran', genre='fiction', pages=177, price=72.3, publisher='Transworld'}
+Book{author='Archer Jeffery', title='False Impressions', genre='fiction', pages=177, price=2.3, publisher='Pan'}
+Book{author='Crichton Michael', title='Jurassic Park', genre='fiction', pages=174, price=34.6, publisher='Random House'}
+Book{author='Poe Edgar Allen', title='Tales of Mystery and Imagination', genre='fiction', pages=172, price=32.6, publisher='HarperCollins'}
+Book{author='Deshpande PL', title='Asami Asami', genre='fiction', pages=205, price=49.4, publisher='Mauj'}
+Book{author='Steinbeck John', title='Journal of a Novel', genre='fiction', pages=196, price=32.5, publisher='Penguin'}
+Book{author='Steinbeck John', title='Moon is Down', genre='fiction', pages=196, price=15.9, publisher='Penguin'}
+Book{author='Grisham John', title='Brethren', genre='fiction', pages=174, price=93.6, publisher='Random House'}
+Book{author='Naipaul VS', title='In a Free State', genre='fiction', pages=196, price=32.5, publisher='Rupa'}
+Book{author='Heller Joseph', title='Catch 22', genre='fiction', pages=178, price=58.9, publisher='Random House'}
+Book{author='Stroud Jonathan', title='Amulet of Samarkand', genre='fiction', pages=179, price=84.6, publisher='Random House'}
+Book{author='Dostoevsky Fyodor', title='Crime and Punishment', genre='fiction', pages=180, price=41.9, publisher='Penguin'}
+Book{author='Brown Dan', title='Angels and Demons', genre='fiction', pages=178, price=43.5, publisher='Random House'}
+Book{author='Ghosh Amitav', title='Sea of Poppies', genre='fiction', pages=197, price=43.5, publisher='Penguin'}
+Book{author='Hansberry Lorraine', title='Raisin in the Sun', genre='fiction', pages=175, price=14.6, publisher='Penguin'}
+Book{author='Archer Jeffery', title='Prisoner of Birth', genre='fiction', pages=176, price=18.4, publisher='Pan'}
+Book{author='Garg Sanjay', title='Maqta-e-Ghalib', genre='fiction', pages=221, price=78.4, publisher='Mauj'}
+Book{author='Tharoor Shashi', title='Great Indian Novel', genre='fiction', pages=198, price=43.3, publisher='Penguin'}
+Book{author='Lapierre Dominique', title='City of Joy', genre='fiction', pages=177, price=62.4, publisher='vikas'}
+Book{author='Steinbeck John', title='Winter of Our Discontent', genre='fiction', pages=196, price=83.4, publisher='Penguin'}
+Book{author='Hugo Victor', title='Hunchback of Notre Dame', genre='fiction', pages=175, price=34.8, publisher='Random House'}
+Book{author='Steinbeck John', title='Burning Bright', genre='fiction', pages=175, price=92.4, publisher='Penguin'}
+Book{author='Gordon Richard', title='Doctor in the Nude', genre='fiction', pages=179, price=32.4, publisher='Penguin'}
+Book{author='Maugham William S', title='Maughams Collected Short Stories Vol 3', genre='fiction', pages=171, price=83.4, publisher='Vintage'}
+Book{author='Maugham William S', title='Ashenden of The British Agent', genre='fiction', pages=160, price=34.6, publisher='Vintage'}
+Book{author='Rand Ayn', title='We the Living', genre='fiction', pages=178, price=84.4, publisher='Penguin'}
+Book{author='Braithwaite', title='To Sir With Love', genre='fiction', pages=197, price=32.9, publisher='Penguin'}
+test GetHighestPriceBook:
+Book{author='Smith Adam', title='Wealth of Nations', genre='economics', pages=175, price=98.3, publisher='Random House'}
+test GetLowestPriceBook:
+Book{author='Rand Ayn', title='Return of the Primitive', genre='philosophy', pages=202, price=1.6, publisher='Penguin'}
+test HighestNumberOfPagesBook:
+Book{author='Forsyth David', title='Computer Vision A Modern Approach', genre='data_science', pages=255, price=38.3, publisher='Pearson'}
+test LowestNumberOfPagesBook:
+Book{author='Maugham William S', title='Ashenden of The British Agent', genre='fiction', pages=160, price=34.6, publisher='Vintage'}
